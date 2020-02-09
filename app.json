@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/Login/login",
+    "pages/Phone_login/phone_login",
+    "pages/Home/home",
+    "pages/Study/study",
+    "pages/My/my",
+    "pages/Course/course",
+    "pages/Course-detail/course-detail",
+    "pages/search/search"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "酷丁鱼课堂",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fff",
+    "selectedColor": "#ff9a29",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/Home/home",
+        "text": "首页",
+        "iconPath":"assets/tabs/icon_home@2x.png",
+        "selectedIconPath":"assets/tabs/icon_home_selected@2x.png"
+      },
+      {
+        "pagePath": "pages/Study/study",
+        "text": "学习",
+        "iconPath":"assets/tabs/icon_study@2x.png",
+        "selectedIconPath":"assets/tabs/icon_study_selected@2x.png"
+      },
+      {
+        "pagePath": "pages/Course/course",
+        "text": "课程",
+        "iconPath":"assets/tabs/icon_course@2x.png",
+        "selectedIconPath":"assets/tabs/icon_course_selected@2x.png"
+      },
+      {
+        "pagePath": "pages/My/my",
+        "text": "我的",
+        "iconPath":"assets/tabs/icon_my@2x.png",
+        "selectedIconPath":"assets/tabs/icon_my_selected@2x.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

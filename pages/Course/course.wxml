@@ -1,0 +1,3 @@
+<!--pages/Course/course.wxml-->
+<!-- 课程列表 -->
+<course_list courses="{{courses}}"/>

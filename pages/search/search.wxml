@@ -1,0 +1,7 @@
+<!--pages/search/search.wxml-->
+<view class="search-container">
+<!-- 搜索框 -->
+<include src="./searchBar.wxml" />
+<!-- 搜索内容 -->
+<course_list courses="{{courses}}"/>
+</view>

@@ -1,0 +1,4 @@
+<!--components/circle/circle.wxml-->
+<view class="mp-circle-container">
+  <canvas style="width:{{width}}px;height:{{height}}px;" canvas-id="backgroundCanvas{{canvasId}}"></canvas>
+</view>

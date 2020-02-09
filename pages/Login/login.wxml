@@ -1,0 +1,11 @@
+<!--pages/Login/login.wxml-->
+<view class=".login-container">
+<image class="logo" src="/assets/images/logo@2x.png" />
+<text class="title">在线教育</text>
+<image class="login-tips" src="/assets/images/login_tips@2x.png" />
+<button class="wx-login-button" open-type="getUserInfo" bindgetuserinfo="wxLogin" plain>
+<image class="wx-login-img" src="/assets/images/wx_login@2x.png" />
+</button>
+<text class="phone-login" bindtap="phoneLogin">手机号登陆</text>
+<text class="bottom-tip">Copyright © 2020 在线教育</text>
+</view>
